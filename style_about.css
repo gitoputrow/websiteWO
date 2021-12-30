@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    background-image: url(/header2.jpg);
+    background-size: cover;
+    height: 13rem;
+}
+
+/* styling nav*/
+nav{
+    background-color: rgb(0, 128, 187);
+    padding: 1.5rem;
+    padding-left: 0rem;
+}
+
+nav ul li{
+    display: inline;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    padding: 1.5rem 4rem;
+}
+
+nav ul li a:hover{
+    background-color: rgb(161, 161, 161);
+    padding: 1.5rem 4rem;
+    padding-bottom: 1.55rem;
+}
+
+nav ul li a#aktif{
+    background-color: rgb(9, 55, 77);
+    padding: 1.5rem 4rem;
+    padding-bottom: 1.55rem;
+}
+
+main{
+    background-color: rgb(3, 162, 183);
+    justify-content: center;
+}
+
+h1{
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 5rem;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.as{
+    display: flex;
+    justify-content: center;
+}
+.as img{
+    margin-top: -1rem;
+    height: 20rem;
+}
+.kotlin{
+    display: flex;
+    justify-content: center;
+}
+.kotlin img{
+    height: 5.5rem;
+}
+.blender{
+    display: flex;
+    justify-content: center;
+}
+.blender img{
+    margin-top: 5rem;
+    height: 7.5rem;
+    margin-bottom: 3rem;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+.link a{
+    color: aliceblue;
+}
+.link a:hover{
+    color: rgb(114, 194, 197);
+}

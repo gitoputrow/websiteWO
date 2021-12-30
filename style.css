@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    background-image: url(/header2.jpg);
+    background-size: cover;
+    height: 13rem;
+}
+
+/* styling nav*/
+nav{
+    background-color: rgb(0, 128, 187);
+    padding: 1.5rem;
+    padding-left: 0rem;
+}
+
+nav ul li{
+    display: inline;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    padding: 1.5rem 4rem;
+}
+
+nav ul li a:hover{
+    background-color: rgb(161, 161, 161);
+    padding: 1.5rem 4rem;
+    padding-bottom: 1.55rem;
+}
+
+nav ul li a#aktif{
+    background-color: rgb(9, 55, 77);
+    padding: 1.5rem 4rem;
+    padding-bottom: 1.55rem;
+}
+
+main{
+    /* display: ; */
+    background-color: rgb(3, 162, 183)
+    
+}
+
+section.logoContainer{
+    background-color: rgb(3, 162, 183)
+}
+
+section.logoContainer .logo{
+    display: flex;
+    
+}
+
+section.logoContainer h2{
+    text-align: center;
+    color: aliceblue;
+    font-family: Helvetica;
+    font-size: large;
+    margin-bottom: 3rem;
+}
+
+section.logoContainer img{
+    margin: auto;
+    height: 24rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+section.tools{
+    background-color: rgb(3, 183, 164)
+}
+section.tools h1{
+    text-align: center;
+    font-size: 9rem;
+    font-family: sans-serif;
+    color: aliceblue;
+    margin-bottom: 2rem;
+}
+section.tools .baris_satu img{
+    height: 35rem;
+    margin-bottom: 4rem;
+}
+section.tools .baris_dua img{
+    height: 36rem;
+    margin-left: 10rem;
+}
