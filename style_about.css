@@ -93,3 +93,40 @@ h1{
 .link a:hover{
     color: rgb(114, 194, 197);
 }
+@media screen and (min-width : 1920px){
+    header{
+        background-image: url(/header2.jpg);
+        background-size: cover;
+        height: 16rem;
+    }
+    nav{
+        background-color: rgb(0, 128, 187);
+        padding: 2rem;
+        padding-left: 0rem;
+    }
+    
+    nav ul li{
+        display: inline;
+        font-size: 1.6rem;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+    }
+    
+    nav ul li a{
+        color: rgb(255, 255, 255);
+        padding: 2rem 5.5rem;
+    }
+    
+    nav ul li a:hover{
+        background-color: rgb(161, 161, 161);
+        padding: 2rem 5.5rem;
+        padding-bottom: 2.1rem;
+    }
+    
+    nav ul li a#aktif{
+        background-color: rgb(9, 55, 77);
+        padding: 2rem 5.5rem;
+        padding-bottom: 2.1rem;
+    }
+}
