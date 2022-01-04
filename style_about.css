@@ -130,7 +130,7 @@ h1{
         padding-bottom: 2.1rem;
     }
 }
-@media screen and (max-width : 1080px){
+@media screen and (max-width : 1080px) and (min-height : 1800px){
     header{
         background-image: url(/header2.jpg);
         background-size: cover;
@@ -178,5 +178,42 @@ h1{
         margin-top: 8rem;
         height: 11rem;
         margin-bottom: 38rem;
+    }
+}
+@media screen and (max-width : 990px) and (min-height : 1800px){
+    header{
+        background-image: url(/header2.jpg);
+        background-size: cover;
+        height: 8rem;
+    }
+    nav{
+        background-color: rgb(0, 128, 187);
+        padding: 1.5rem;
+        padding-left: 0rem;
+    }
+    
+    nav ul li{
+        display: inline;
+        font-size: 1rem;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+    }
+    
+    nav ul li a{
+        color: rgb(255, 255, 255);
+        padding: 1.3rem 4rem;
+    }
+    
+    nav ul li a:hover{
+        background-color: rgb(161, 161, 161);
+        padding: 1.4rem 4rem;
+        padding-bottom: 1.6rem;
+    }
+    
+    nav ul li a#aktif{
+        background-color: rgb(9, 55, 77);
+        padding: 1.4rem 4rem;
+        padding-bottom: 1.6rem;
     }
 }

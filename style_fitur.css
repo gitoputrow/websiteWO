@@ -279,7 +279,7 @@ section.home .alur img{
         padding-left: 13rem;
     }
 }
-@media screen and (max-width : 1080px){
+@media screen and (max-width : 1080px) and (min-height : 1800px){
     header{
         background-image: url(/header2.jpg);
         background-size: cover;
@@ -405,6 +405,135 @@ section.home .alur img{
     
     section.home .alur img{
         height: 29rem;
+        padding-left: 2rem;
+    }
+}
+@media screen and (max-width : 990px) and (min-height : 1800px){
+    header{
+        background-image: url(/header2.jpg);
+        background-size: cover;
+        height: 8rem;
+    }
+    nav{
+        background-color: rgb(0, 128, 187);
+        padding: 1.5rem;
+        padding-left: 0rem;
+    }
+    
+    nav ul li{
+        display: inline;
+        font-size: 1rem;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+    }
+    
+    nav ul li a{
+        color: rgb(255, 255, 255);
+        padding: 1.3rem 4rem;
+    }
+    
+    nav ul li a:hover{
+        background-color: rgb(161, 161, 161);
+        padding: 1.4rem 4rem;
+        padding-bottom: 1.6rem;
+    }
+    
+    nav ul li a#aktif{
+        background-color: rgb(9, 55, 77);
+        padding: 1.4rem 4rem;
+        padding-bottom: 1.6rem;
+    }
+    section.fitur h1{
+        padding-top: 3rem;
+        text-align: center;
+        font-size: 5.5rem;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: aliceblue;
+    }
+    
+    section.fitur h2{
+        padding-top: 1rem;
+        text-align: center;
+        font-size: 1.7rem;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: rgb(0, 173, 216);
+    }
+    
+    section.fitur .fitur_img1{
+        display: flex;
+        justify-content: center;
+        height: 24rem;
+    }
+    
+    section.fitur .fitur_img2{
+        display: flex;
+        justify-content: center;
+        height: 21.3rem;
+    }
+    section.profile h1{
+        padding-top: 3rem;
+        text-align: center;
+        font-size: 5.5rem;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: aliceblue;
+    }
+    
+    section.profile h2{
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+        text-align: center;
+        font-size: 1.7rem;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: rgb(2, 63, 78);
+    }
+    
+    section.profile .baris1{
+        padding-bottom: 3rem;
+    }
+    
+    section.profile .baris1 img{
+        height: 21rem;
+        justify-content: center;
+        padding-left: 1.5rem;
+    }
+    
+    section.profile .baris2 img{
+        height: 21rem;
+        justify-content: center;
+        padding-left: 1.5rem;
+    }
+    section.home h1{
+        padding-top: 3rem;
+        text-align: center;
+        font-size: 5.5rem;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: aliceblue;
+    }
+    
+    section.home h2{
+        padding-top: 1.5rem;
+        padding-bottom: 3rem;
+        text-align: center;
+        font-size: 1.7rem;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: rgb(0, 104, 73);
+    }
+    
+    section.home img{
+        height: 25rem;
+        padding-left: 9rem;
+        margin-right: -10rem;
+    }
+    
+    section.home .alur img{
+        height: 27rem;
         padding-left: 2rem;
     }
 }
