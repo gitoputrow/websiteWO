@@ -456,7 +456,7 @@ section.home .alur img{
     section.fitur h2{
         padding-top: 1rem;
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-family: sans-serif;
         font-weight: bold;
         color: rgb(0, 173, 216);
@@ -465,7 +465,7 @@ section.home .alur img{
     section.fitur .fitur_img1{
         display: flex;
         justify-content: center;
-        height: 23rem;
+        height: 22rem;
     }
     
     section.fitur .fitur_img2{
@@ -486,7 +486,7 @@ section.home .alur img{
         padding-top: 2rem;
         padding-bottom: 5rem;
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-family: sans-serif;
         font-weight: bold;
         color: rgb(2, 63, 78);
