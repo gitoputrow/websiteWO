@@ -273,15 +273,15 @@ section.tools .baris_dua img{
         margin-bottom: 2rem;
     }
     section.tools .baris_satu img{
-        height: 27rem;
-        margin-left: -1rem;
-        margin-right: -3rem;
+        height: 24rem;
+        margin-left: 0rem;
+        margin-right: -1rem;
         margin-bottom: 5rem;
     }
     section.tools .baris_dua img{
-        height: 30rem;
-        margin-left: 3rem;
-        margin-right: -2rem;
-        margin-bottom: 10rem;
+        height: 26rem;
+        margin-left: 5.5rem;
+        margin-right: -2.5rem;
+        margin-bottom: 12rem;
     }
 }
